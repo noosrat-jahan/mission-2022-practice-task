@@ -135,8 +135,9 @@ body{
 /* develop without limit section starts here */
 
 .develop_without_limits{
-    width: 76%;
+    width: 76%;    
     margin: 0 auto;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,16 +147,25 @@ body{
 .develop_without_limits_image_container{   
     width: 320px;
     height: 320px;
+    
 }
 
 .develop_without_limits img{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
 
-.develop_without_limits_text_container{
-   
+.coding{
+    position: relative;
+    z-index: 1;
+}
+
+.projects{
+    position: relative;
+    z-index: 1;
+}
+
+.develop_without_limits_text_container{   
     width: 60%;
 }
 
@@ -183,14 +193,17 @@ body{
 #ellipse{
     width: 220px;
     height: 220px;   
-    transform: translateY(-300px) translateX(-100px) translateZ(-10000px);
+    transform: translateY(30px) translateX(-420px) translateZ(-10px);
+    position: absolute;
     
 }
 
 #dotted_square{
+    /* position: absolute; */
     width: 120px;
     height: 130px;
-    transform: translateY(-280px) translateX(-150px);
+    transform: translateY(270px) translateX(-450px);
+    position: absolute;
 }
 
 
@@ -247,8 +260,8 @@ body{
 #ellipse-2{
     width: 150px;
     height: 150px;   
-    transform: translateY(-110px) translateX(200px) translateZ(-10px);
-    z-index: -1;
+    transform: translateY(200px) translateX(-85px) translateZ(-10px);
+    position: absolute;
     
 }
 
@@ -297,28 +310,34 @@ body{
     height: 450px;
 }
 
-.build_corona_image_container img{
+
+
+.app{
     width: 100%;
     height: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .build_corona_image_container .rectangle-1{
     width: 145px;
     height: 145px;
-    transform: translateY(-500px) translateX(-55px);
-    z-index: -1;
+    transform: translateY(-50px) translateX(-300px);
+    position: absolute;
 }
 
 .build_corona_image_container .rectangle-2{
     width: 77px;
     height: 77px;
-    transform: translateY(-240px) translateX(10px);
+    transform: translateY(380px) translateX(-240px);
+    position: absolute;
 }
 
 .build_corona_image_container .rectangle-3{
     width: 77px;
     height: 77px;
-    transform: translateY(-230px) translateX(-15px);
+    transform: translateY(250px) translateX(-70px);
+    position: absolute;
 }
 
 
