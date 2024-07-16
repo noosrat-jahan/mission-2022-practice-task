@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header_banner{    
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* .header_text_container{
+    border: 1px solid black;
+} */
+
+
+.header_text_container h1{    
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 3rem;
+    border-left: 4px solid rgb(255, 89, 89);
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+#descrp{        
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#small{
+    font-size: 0.8rem;
+
+}
+
+#m-2022{
+    color: rgb(255, 173, 90);
+}
+
+.explore-now-btn{
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(255, 89, 89);
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.header_image_container img{
+    width: 70%;
+    height: 80%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+
+
+/* my mission section starts here*/
+
+.my_mission_section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.my_mission_section h1{
+    text-align: center
+}
+
+.my_mission_card_container{
+    
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.my_mission_section img{
+    border: 1px dashed peru;
+    width: 140px;
+    height: 140px;
+}
+
+.my_mission_card_container p{
+    width: 80%;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.mission, .vision, .goals{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.mission{
+    background-color: rgb(237, 245, 246);
+}
+.vision{
+    background-color: rgb(255, 238, 238);
+}
+
+.goals{
+    background-color: rgb(255, 244, 214);
+}
+
+
+
+/* develop without limit section starts here */
+
+.develop_without_limits{
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.develop_without_limits_image_container{   
+    width: 320px;
+    height: 320px;
+}
+
+.develop_without_limits img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.develop_without_limits_text_container{
+   
+    width: 60%;
+}
+
+.develop_without_limits_text_container h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.develop_without_limits_text_container p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+.read_doc_btn{
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgb(255, 89, 89);
+    padding: 14px 28px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#ellipse{
+    width: 220px;
+    height: 220px;   
+    transform: translateY(-300px) translateX(-100px) translateZ(-10000px);
+    
+}
+
+#dotted_square{
+    width: 120px;
+    height: 130px;
+    transform: translateY(-280px) translateX(-150px);
+}
+
+
+/* know our global community */
+
+.know_our_community{
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.know_our_community_image_container{   
+    width: 300px;
+    height: 300px;
+}
+
+.know_our_community img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.know_our_community_text_container{
+   
+    width: 60%;
+}
+
+.know_our_community_text_container h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.know_our_community_text_container p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+.read_doc_btn{
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgb(255, 89, 89);
+    padding: 14px 28px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#ellipse-2{
+    width: 150px;
+    height: 150px;   
+    transform: translateY(-110px) translateX(200px) translateZ(-10px);
+    z-index: -1;
+    
+}
+
+
+
+/* build corona application section */
+
+.build_corona_app_section{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.build_corona_app_section h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.build_corona_content_container{
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 20px;
+}
+
+.build_corona_text_container{
+    width: 50%;
+}
+
+.build_corona_text_container h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.build_corona_image_container{
+    width: 230px;
+    height: 450px;
+}
+
+.build_corona_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.build_corona_image_container .rectangle-1{
+    width: 145px;
+    height: 145px;
+    transform: translateY(-500px) translateX(-55px);
+    z-index: -1;
+}
+
+.build_corona_image_container .rectangle-2{
+    width: 77px;
+    height: 77px;
+    transform: translateY(-240px) translateX(10px);
+}
+
+.build_corona_image_container .rectangle-3{
+    width: 77px;
+    height: 77px;
+    transform: translateY(-230px) translateX(-15px);
+}
+
+
+.app_btn{
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgb(255, 89, 89);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;   
+}
+
+
+footer{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 180px;
+    background-color: rgb(11, 13, 23);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2{
+    font-family: "Lobster", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+footer p{
+    font-family: "Manrope", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400; 
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+#foot_22{
+    color: rgb(255, 89, 89);
+}
+
+
+
+/* responsive design for mobile device */
+
+@media screen and (max-width:576px){
+    .header_banner{
+        margin: 0 auto;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        
+    }
+    
+
+    .my_mission_card_container{
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .develop_without_limits,  .know_our_community, .build_corona_content_container{
+        flex-direction: column;
+    }
+
+    
+}
